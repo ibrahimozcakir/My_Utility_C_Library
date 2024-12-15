@@ -1,0 +1,63 @@
+/**
+ * @brief is_leap macro determines if a given year is a leap year.
+ *
+ * @param y = Year to be checked.
+ *
+ * @retval int, Returns 1 if the year is a leap year, otherwise 0.
+ */
+
+/**
+ * @brief randomize macro seeds the random number generator with the current time.
+ *
+ * @retval void, No return value.
+ */
+
+/**
+ * @brief asize macro calculates the number of elements in an array.
+ *
+ * @param x = The array whose size is to be determined.
+ *
+ * @retval size_t, The number of elements in the array.
+ */
+
+/**
+ * @brief relem macro returns a random element from an array.
+ *
+ * @param a = The array from which a random element is to be selected.
+ *
+ * @retval The randomly selected element from the array.
+ */
+
+/**
+ * @brief sbc macro calculates the number of set bits (1s) in an integer.
+ *
+ * @param x = The integer whose set bits are to be counted.
+ *
+ * @retval int, The number of set bits in the integer.
+ */
+
+/**
+ * @brief random_name function returns a randomly selected name from a predefined list of names.
+ *
+ * @retval const char*, Pointer to the randomly selected name string.
+ */
+
+/**
+ * @brief random_sname function returns a randomly selected surname from a predefined list of surnames.
+ *
+ * @retval const char*, Pointer to the randomly selected surname string.
+ */
+
+/**
+ * @brief random_town function returns a randomly selected town name from a predefined list of towns.
+ *
+ * @retval const char*, Pointer to the randomly selected town name string.
+ */
+
+/**
+ * @brief bprint function prints the binary representation of an integer to the console.
+ *
+ * @param val = The integer to be printed in binary format.
+ *
+ * @retval void, No return value.
+ */
