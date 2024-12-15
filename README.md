@@ -5,12 +5,12 @@ A collection of utility functions for various operations such as number analysis
 
 ### Installation
 1. Clone the repository.
-2. Include `Utility_Lib.h` and `Utility_Lib.c` in your project.
+2. Include `nutility.h` and `nutility.c` in your project.
 3. Compile and link them with your main file.
 
 ### Example Usage
 ```c
-#include "Utility_Lib.h"
+#include "nutility.h"
 #include <stdio.h>
 
 int main() {
@@ -25,7 +25,7 @@ int main() {
 }
 ```
 
-### Key Functions
+### Some Functions
 - `int my_is_prime(int)` : Check if a number is prime.
 - `void my_array_print(const int*, int)` : Print elements of an array.
 - `double my_std_dev(const int*, int)` : Calculate the standard deviation of an array.
@@ -39,12 +39,12 @@ A library for handling and manipulating date objects, including utilities for in
 
 ### Installation
 1. Clone the repository.
-2. Include `Date_Lib.h` and `Date_Lib.c` in your project.
+2. Include `date.h` and `date.c` in your project.
 3. Compile and link them with your main file.
 
 ### Example Usage
 ```c
-#include "Date_Lib.h"
+#include "date.h"
 #include <stdio.h>
 
 int main() {
@@ -60,7 +60,7 @@ int main() {
 }
 ```
 
-### Key Functions
+### Some Functions
 - `Date* set_date_today(Date*)` : Set a date object to the current date.
 - `int date_diff(const Date*, const Date*)` : Calculate the difference in days between two dates.
 - `Date* ndays_after(Date*, const Date*, int)` : Calculate the date after a specified number of days.
@@ -74,12 +74,12 @@ A library for creating, managing, and comparing employee records.
 
 ### Installation
 1. Clone the repository.
-2. Include `Employee_Lib.h` and `Employee_Lib.c` in your project.
+2. Include `employee.h` and `employee.c` in your project.
 3. Compile and link them with your main file.
 
 ### Example Usage
 ```c
-#include "Employee_Lib.h"
+#include "employee.h"
 #include <stdio.h>
 
 int main() {
@@ -91,7 +91,7 @@ int main() {
 }
 ```
 
-### Key Functions
+### Some Functions
 - `void print_employee(const Employee*)` : Print details of an employee.
 - `Employee* set_employee_random(Employee*)` : Populate an employee record with random data.
 - `int cmp_employee_byname(const Employee*, const Employee*)` : Compare employees by name.
@@ -105,12 +105,12 @@ A library for creating and managing linked lists of employee records.
 
 ### Installation
 1. Clone the repository.
-2. Include `Employee_Linked_List_Lib.h` and `Employee_Linked_List_Lib.c` in your project.
+2. Include `employeelist.h` and `employeelist.c` in your project.
 3. Compile and link them with your main file.
 
 ### Example Usage
 ```c
-#include "Employee_Linked_List_Lib.h"
+#include "employeelist.h"
 #include <stdio.h>
 
 int main() {
@@ -127,7 +127,7 @@ int main() {
 }
 ```
 
-### Key Functions
+### Some Functions
 - `ListHandle create_employee_list(void)` : Create a new employee linked list.
 - `void push_front(ListHandle, const Employee*)` : Add an employee record to the front of the list.
 - `void print_employee_list(ListHandle)` : Print all employee records in the list.
@@ -141,12 +141,12 @@ A library for creating and managing dynamic arrays with customizable capacity.
 
 ### Installation
 1. Clone the repository.
-2. Include `Dynamic_Array_Lib.h` and `Dynamic_Array_Lib.c` in your project.
+2. Include `vector.h` and `vector.c` in your project.
 3. Compile and link them with your main file.
 
 ### Example Usage
 ```c
-#include "Dynamic_Array_Lib.h"
+#include "vector.h"
 #include <stdio.h>
 
 int main() {
@@ -163,7 +163,7 @@ int main() {
 }
 ```
 
-### Key Functions
+### Some Functions
 - `HVector create_vector_with_capacity(size_t)` : Create a dynamic array with specified capacity.
 - `int push_back(HVector, DATATYPE)` : Add an element to the end of the array.
 - `int pop_back(HVector)` : Remove the last element from the array.
@@ -177,12 +177,12 @@ A library for checking and handling character types based on a custom implementa
 
 ### Installation
 1. Clone the repository.
-2. Include `Ctype_Lib.h` and `Ctype_Lib.c` in your project.
+2. Include `myctype.h` and `myctype.c` in your project.
 3. Compile and link them with your main file.
 
 ### Example Usage
 ```c
-#include "Ctype_Lib.h"
+#include "myctype.h"
 #include <stdio.h>
 
 int main() {
@@ -195,7 +195,7 @@ int main() {
 }
 ```
 
-### Key Macros
+### Some Macros
 - `ISUPPER(c)` : Check if a character is uppercase.
 - `ISLOWER(c)` : Check if a character is lowercase.
 - `ISDIGIT(c)` : Check if a character is a digit.
