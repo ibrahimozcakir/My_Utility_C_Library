@@ -1,19 +1,15 @@
-Utility_Lib
+# Utility_Lib
 
-Overview
-
+### Overview
 A collection of utility functions for various operations such as number analysis, array manipulations, and basic input/output utilities in C.
 
-Installation
+### Installation
+1. Clone the repository.
+2. Include `Utility_Lib.h` and `Utility_Lib.c` in your project.
+3. Compile and link them with your main file.
 
-Clone the repository.
-
-Include Utility_Lib.h and Utility_Lib.c in your project.
-
-Compile and link them with your main file.
-
-Example Usage
-
+### Example Usage
+```c
 #include "Utility_Lib.h"
 #include <stdio.h>
 
@@ -27,31 +23,27 @@ int main() {
     my_put_star_line();
     return 0;
 }
+```
 
-Key Functions
+### Key Functions
+- `int my_is_prime(int)` : Check if a number is prime.
+- `void my_array_print(const int*, int)` : Print elements of an array.
+- `double my_std_dev(const int*, int)` : Calculate the standard deviation of an array.
 
-int my_is_prime(int) : Check if a number is prime.
+---
 
-void my_array_print(const int*, int) : Print elements of an array.
+# Date_Lib
 
-double my_std_dev(const int*, int) : Calculate the standard deviation of an array.
-
-Date_Lib
-
-Overview
-
+### Overview
 A library for handling and manipulating date objects, including utilities for input/output and date arithmetic.
 
-Installation
+### Installation
+1. Clone the repository.
+2. Include `Date_Lib.h` and `Date_Lib.c` in your project.
+3. Compile and link them with your main file.
 
-Clone the repository.
-
-Include Date_Lib.h and Date_Lib.c in your project.
-
-Compile and link them with your main file.
-
-Example Usage
-
+### Example Usage
+```c
 #include "Date_Lib.h"
 #include <stdio.h>
 
@@ -66,31 +58,27 @@ int main() {
 
     return 0;
 }
+```
 
-Key Functions
+### Key Functions
+- `Date* set_date_today(Date*)` : Set a date object to the current date.
+- `int date_diff(const Date*, const Date*)` : Calculate the difference in days between two dates.
+- `Date* ndays_after(Date*, const Date*, int)` : Calculate the date after a specified number of days.
 
-Date* set_date_today(Date*) : Set a date object to the current date.
+---
 
-int date_diff(const Date*, const Date*) : Calculate the difference in days between two dates.
+# Employee_Lib
 
-Date* ndays_after(Date*, const Date*, int) : Calculate the date after a specified number of days.
-
-Employee_Lib
-
-Overview
-
+### Overview
 A library for creating, managing, and comparing employee records.
 
-Installation
+### Installation
+1. Clone the repository.
+2. Include `Employee_Lib.h` and `Employee_Lib.c` in your project.
+3. Compile and link them with your main file.
 
-Clone the repository.
-
-Include Employee_Lib.h and Employee_Lib.c in your project.
-
-Compile and link them with your main file.
-
-Example Usage
-
+### Example Usage
+```c
 #include "Employee_Lib.h"
 #include <stdio.h>
 
@@ -101,31 +89,27 @@ int main() {
 
     return 0;
 }
+```
 
-Key Functions
+### Key Functions
+- `void print_employee(const Employee*)` : Print details of an employee.
+- `Employee* set_employee_random(Employee*)` : Populate an employee record with random data.
+- `int cmp_employee_byname(const Employee*, const Employee*)` : Compare employees by name.
 
-void print_employee(const Employee*) : Print details of an employee.
+---
 
-Employee* set_employee_random(Employee*) : Populate an employee record with random data.
+# Employee_Linked_List_Lib
 
-int cmp_employee_byname(const Employee*, const Employee*) : Compare employees by name.
-
-Employee_Linked_List_Lib
-
-Overview
-
+### Overview
 A library for creating and managing linked lists of employee records.
 
-Installation
+### Installation
+1. Clone the repository.
+2. Include `Employee_Linked_List_Lib.h` and `Employee_Linked_List_Lib.c` in your project.
+3. Compile and link them with your main file.
 
-Clone the repository.
-
-Include Employee_Linked_List_Lib.h and Employee_Linked_List_Lib.c in your project.
-
-Compile and link them with your main file.
-
-Example Usage
-
+### Example Usage
+```c
 #include "Employee_Linked_List_Lib.h"
 #include <stdio.h>
 
@@ -141,31 +125,27 @@ int main() {
     destroy_list(list);
     return 0;
 }
+```
 
-Key Functions
+### Key Functions
+- `ListHandle create_employee_list(void)` : Create a new employee linked list.
+- `void push_front(ListHandle, const Employee*)` : Add an employee record to the front of the list.
+- `void print_employee_list(ListHandle)` : Print all employee records in the list.
 
-ListHandle create_employee_list(void) : Create a new employee linked list.
+---
 
-void push_front(ListHandle, const Employee*) : Add an employee record to the front of the list.
+# Dynamic_Array_Lib
 
-void print_employee_list(ListHandle) : Print all employee records in the list.
-
-Dynamic_Array_Lib
-
-Overview
-
+### Overview
 A library for creating and managing dynamic arrays with customizable capacity.
 
-Installation
+### Installation
+1. Clone the repository.
+2. Include `Dynamic_Array_Lib.h` and `Dynamic_Array_Lib.c` in your project.
+3. Compile and link them with your main file.
 
-Clone the repository.
-
-Include Dynamic_Array_Lib.h and Dynamic_Array_Lib.c in your project.
-
-Compile and link them with your main file.
-
-Example Usage
-
+### Example Usage
+```c
 #include "Dynamic_Array_Lib.h"
 #include <stdio.h>
 
@@ -181,31 +161,27 @@ int main() {
     destroy_vector(vec);
     return 0;
 }
+```
 
-Key Functions
+### Key Functions
+- `HVector create_vector_with_capacity(size_t)` : Create a dynamic array with specified capacity.
+- `int push_back(HVector, DATATYPE)` : Add an element to the end of the array.
+- `int pop_back(HVector)` : Remove the last element from the array.
 
-HVector create_vector_with_capacity(size_t) : Create a dynamic array with specified capacity.
+---
 
-int push_back(HVector, DATATYPE) : Add an element to the end of the array.
+# Ctype_Lib
 
-int pop_back(HVector) : Remove the last element from the array.
+### Overview
+A library for checking and handling character types based on a custom implementation of the C standard library's `<ctype.h>` functionality.
 
-Ctype_Lib
+### Installation
+1. Clone the repository.
+2. Include `Ctype_Lib.h` and `Ctype_Lib.c` in your project.
+3. Compile and link them with your main file.
 
-Overview
-
-A library for checking and handling character types based on a custom implementation of the C standard library's <ctype.h> functionality.
-
-Installation
-
-Clone the repository.
-
-Include Ctype_Lib.h and Ctype_Lib.c in your project.
-
-Compile and link them with your main file.
-
-Example Usage
-
+### Example Usage
+```c
 #include "Ctype_Lib.h"
 #include <stdio.h>
 
@@ -217,13 +193,10 @@ int main() {
 
     return 0;
 }
+```
 
-Key Macros
-
-ISUPPER(c) : Check if a character is uppercase.
-
-ISLOWER(c) : Check if a character is lowercase.
-
-ISDIGIT(c) : Check if a character is a digit.
-
+### Key Macros
+- `ISUPPER(c)` : Check if a character is uppercase.
+- `ISLOWER(c)` : Check if a character is lowercase.
+- `ISDIGIT(c)` : Check if a character is a digit.
 
