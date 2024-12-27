@@ -5,12 +5,12 @@ A collection of utility functions for various operations such as number analysis
 
 ### Installation
 1. Clone the repository.
-2. Include `nutility.h` and `nutility.c` in your project.
+2. Include `utility.h` and `utility.c` in your project.
 3. Compile and link them with your main file.
 
 ### Example Usage
 ```c
-#include "nutility.h"
+#include "utility.h"
 #include <stdio.h>
 
 int main() {
