@@ -1,5 +1,5 @@
 #define _CRT_SECURE_NO_WARNINGS
-#include "nutility.h"
+#include "utility.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
@@ -1036,7 +1036,7 @@ const char* random_sname(void)
 	"Kabak", "Baykara", "Guler", "Esmer", "Bagci", "Ergun", "Ulker", "Elmas", "Atilgan", "Ayvaz",
 	"Gungor", "Nacak", "Batur", "Ozturkcan", "Yildiz", "Durukan", "Yorulmaz", "Yasar", "Karahan", "Yar",
 	"Alkan", "Kibar", "Ogul", "Tekbas", "Kurt", "Aral", "Bilal", "Gumus", "Fidan", "Akbay",
-	"Kayaoglu", "Ateþci", "Demirci", "Goksu", "Turgut", "Gokmen", "Tufan", "Sagman", "Ilker", "Maden",
+	"Kayaoglu", "AteÃ¾ci", "Demirci", "Goksu", "Turgut", "Gokmen", "Tufan", "Sagman", "Ilker", "Maden",
 	"Albayrak", "Beyaz", "Yavuz", "Ergenc", "Burak", "Ipek", "Soykan", "Gullu", "Yildirimoglu", "Golge",
 	"Keles", "Gokcan", "Akyol", "Guneydogdu", "Aytekin", "Dalkiran", "Bostan", "Kum", "Ok", "Cigdem"
 	};
